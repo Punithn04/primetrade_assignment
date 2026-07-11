@@ -72,6 +72,10 @@ Each run prints:
 All requests, responses, and errors are logged to `logs/trading_bot.log`
 (rotated at 2 MB, 5 backups kept).
 
+A committed sample log — [`logs/sample_run.log`](logs/sample_run.log) — captures one
+MARKET and one LIMIT order placed against the testnet, showing the full
+request/response cycle (signatures are redacted in logs).
+
 ## Input Validation
 
 - `symbol` must look like a USDT-M pair (e.g. `BTCUSDT`)

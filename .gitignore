@@ -3,5 +3,7 @@ __pycache__/
 .env
 logs/*.log
 logs/*.log.*
+# Keep the committed sample run (one MARKET + one LIMIT order) as a deliverable
+!logs/sample_run.log
 venv/
 .venv/
